@@ -167,18 +167,3 @@ Manas Thakre
 Data Analytics | Power BI | SQL | Data Visualization
 
 
-⭐ Project
-
-If you find this project useful, feel free to explore the repository and dashboard.
-### 3. Save README
-
-After pasting:
-
-**Ctrl + S**
-
-Then PowerShell:
-
-```powershell
-git add README.md
-git commit -m "Improve project README"
-git push
