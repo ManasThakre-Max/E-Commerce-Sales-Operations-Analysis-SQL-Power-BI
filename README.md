@@ -1,39 +1,23 @@
-# E-Commerce Sales & Operations Analysis | SQL + Power BI
+# E-Commerce Sales & Operations Analysis
 
-## 📊 Project Overview
+An interactive Power BI dashboard designed to analyze e-commerce sales performance, customers, sellers, payment methods, product categories, and delivery operations.
 
-This project is an end-to-end **E-Commerce Sales & Operations Analysis** project
-built using **SQL and Power BI**.
+## 📌 Project Overview
 
-The project analyzes e-commerce data to understand sales performance, revenue
-trends, product categories, seller performance, customer activity, payment
-methods, and delivery performance.
+This project analyzes e-commerce transaction data to identify important business trends and performance indicators.
 
-SQL was used to store, query, transform, and prepare the data, while Power BI
-was used to create an interactive dashboard and communicate business insights
-through visualizations.
+The dashboard provides an interactive view of:
 
----
+- Overall sales and revenue performance
+- Monthly revenue trends
+- Product category performance
+- Seller and seller-city performance
+- Payment method usage
+- Delivery performance
+- Customer and order statistics
+- Revenue versus units sold
 
-## 🎯 Business Problem
-
-E-commerce businesses generate large amounts of sales, customer, seller,
-product, payment, and delivery data.
-
-The challenge is to convert this raw data into useful information that can
-help answer questions such as:
-
-- How much revenue is being generated?
-- How is revenue changing over time?
-- Which product categories generate the most revenue?
-- Which seller locations perform best?
-- Which payment methods are most commonly used?
-- How many orders are delivered on time?
-- Which seller cities generate the highest revenue?
-- What is the relationship between units sold and revenue?
-
-This project addresses these questions through SQL analysis and an
-interactive Power BI dashboard.
+The project was developed using **Power BI** with data preparation, transformation, modeling, DAX calculations, and interactive dashboard design.
 
 ---
 
@@ -41,73 +25,160 @@ interactive Power BI dashboard.
 
 The main objectives of this project are:
 
-- Analyze overall e-commerce sales performance
-- Track monthly revenue trends
-- Calculate important business KPIs
-- Identify high-performing product categories
-- Analyze seller performance by location
-- Identify top seller cities by revenue
-- Analyze customer and order activity
-- Understand payment method preferences
-- Analyze delivery performance
-- Compare revenue with units sold
-- Build an interactive business intelligence dashboard
+- Analyze overall e-commerce revenue and order performance
+- Identify the highest-performing product categories
+- Analyze seller performance by city and state
+- Understand customer and order volumes
+- Identify the most commonly used payment methods
+- Evaluate delivery performance
+- Analyze the relationship between revenue and units sold
+- Build an interactive dashboard for business decision-making
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-| Technology | Purpose |
-|---|---|
-| **SQL** | Data querying, transformation, analysis and creation of analytical views |
-| **Power BI** | Interactive dashboards and data visualization |
-| **DAX** | KPI calculations and analytical measures |
-| **Data Modeling** | Relationships and analytical data structure |
-| **CSV / Excel** | Source data |
-| **GitHub** | Project documentation and version control |
+- **Power BI Desktop** – Dashboard development and visualization
+- **Power Query** – Data cleaning and transformation
+- **DAX** – Measures and calculations
+- **Data Modeling** – Relationships and analytical model
+- **CSV Dataset** – Source data
 
 ---
 
-## 🗄️ SQL Analysis
+## 📊 Dashboard Pages
 
-SQL was used as an important part of the data analysis workflow.
+### 1. Executive Overview
 
-The raw e-commerce data was prepared and analyzed using SQL, and analytical
-views were created for different business areas.
+Provides a high-level summary of the business.
 
-The project includes analysis related to:
+Key metrics include:
 
-- Category sales
-- Customer information
-- Delivery performance
-- Executive KPIs
-- Monthly orders
-- Monthly sales
-- Payment analysis
-- Product performance
-- Review and delivery analysis
-- Seller performance
-
-These prepared datasets/views were then connected to Power BI for dashboard
-development.
+- Total Revenue
+- Average Order Value
+- Total Sellers
+- Total Products
+- Total Customers
+- Total Orders
+- Monthly Revenue Trend
 
 ---
 
-## 🔄 Project Workflow
+### 2. E-Commerce Sales & Operations Analysis
+
+This page focuses on sales and operational performance.
+
+Visualizations include:
+
+- Revenue by Category
+- Revenue by Seller State
+- Orders by Payment Type
+- Orders by Delivery Status
+
+Interactive filters are also provided for:
+
+- Seller State
+- Payment Type
+
+---
+
+### 3. Seller & Product Performance
+
+This page focuses on seller and product performance.
+
+Visualizations include:
+
+- Top 10 Seller Cities by Revenue
+- Top Categories by Revenue
+- Revenue vs Units Sold by Category
+- Seller Performance Overview
+
+---
+
+## 📈 Key Insights
+
+Some important observations from the analysis include:
+
+- **Health & Beauty** is one of the strongest product categories by revenue.
+- **São Paulo** generates significantly higher seller revenue compared with other seller states/cities.
+- **Credit Card** is the dominant payment method.
+- The majority of orders are delivered **On Time**.
+- A small number of seller cities contribute a significant portion of total revenue.
+- Higher units sold generally correspond to higher revenue, although performance varies across categories.
+
+---
+
+## 🔄 Data Analysis Workflow
 
 ```text
-Raw E-Commerce Data
-        ↓
-    SQL Database
-        ↓
-SQL Queries & Views
-        ↓
-Data Preparation
-        ↓
-Power BI Data Model
-        ↓
-DAX Measures & KPIs
-        ↓
-Interactive Dashboard
-        ↓
+Raw Dataset
+     ↓
+Data Cleaning & Transformation
+     ↓
+Power Query
+     ↓
+Data Modeling
+     ↓
+DAX Measures
+     ↓
+Interactive Power BI Dashboard
+     ↓
 Business Insights
+📁 Project Structure
+E-Commerce-Sales-Operations-Analysis/
+│
+├── Dashboard/
+│   └── E-Commerce_Sales_Operations_Analysis.pbix
+│
+├── Dashboard_Screenshots/
+│   ├── executive-overview.png
+│   ├── sales-operations.png
+│   └── seller-product-performance.png
+│
+├── dataset/
+│   └── dataset files
+│
+└── README.md
+
+🚀 How to Use
+Download or clone this repository.
+Open the .pbix file from the Dashboard folder using Power BI Desktop.
+If required, update the dataset file path in Power Query.
+Refresh the data.
+Use the filters and interactive visuals to explore the analysis.
+
+💡 Business Value
+
+This dashboard can help business stakeholders:
+
+Monitor revenue performance
+Identify high-performing categories
+Evaluate seller performance
+Understand customer and order activity
+Analyze payment preferences
+Monitor delivery performance
+Identify areas requiring operational improvement
+
+
+👨‍💻 Author
+
+Manas Thakre
+
+Data Analytics | Power BI | SQL | Data Visualization
+
+
+⭐ Project
+
+If you find this project useful, feel free to explore the repository and dashboard.
+### 3. Save README
+
+After pasting:
+
+**Ctrl + S**
+
+Then PowerShell:
+
+```powershell
+git add README.md
+git commit -m "Improve project README"
+git push
