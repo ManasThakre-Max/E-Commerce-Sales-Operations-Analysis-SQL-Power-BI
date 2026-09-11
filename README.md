@@ -1,58 +1,62 @@
 # E-Commerce Sales & Operations Analysis
 
-An interactive Power BI dashboard designed to analyze e-commerce sales performance, customers, sellers, payment methods, product categories, and delivery operations.
+## 📊 Project Overview
 
-## 📌 Project Overview
+This project analyzes an e-commerce dataset to understand sales performance, customer behavior, seller performance, payment methods, product categories, and delivery operations.
 
-This project analyzes e-commerce transaction data to identify important business trends and performance indicators.
-
-The dashboard provides an interactive view of:
-
-- Overall sales and revenue performance
-- Monthly revenue trends
-- Product category performance
-- Seller and seller-city performance
-- Payment method usage
-- Delivery performance
-- Customer and order statistics
-- Revenue versus units sold
-
-The project was developed using **Power BI** with data preparation, transformation, modeling, DAX calculations, and interactive dashboard design.
+An interactive Power BI dashboard was developed to transform raw e-commerce data into meaningful business insights and help understand key performance indicators.
 
 ---
 
 ## 🎯 Project Objectives
 
-The main objectives of this project are:
-
-- Analyze overall e-commerce revenue and order performance
-- Identify the highest-performing product categories
-- Analyze seller performance by city and state
-- Understand customer and order volumes
-- Identify the most commonly used payment methods
+- Analyze overall e-commerce sales performance
+- Track revenue and order trends over time
+- Identify top-performing product categories
+- Analyze seller performance across different locations
+- Understand customer and order activity
+- Analyze payment methods used by customers
 - Evaluate delivery performance
-- Analyze the relationship between revenue and units sold
-- Build an interactive dashboard for business decision-making
+- Create an interactive dashboard for business decision-making
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- **Power BI Desktop** – Dashboard development and visualization
-- **Power Query** – Data cleaning and transformation
-- **DAX** – Measures and calculations
-- **Data Modeling** – Relationships and analytical model
-- **CSV Dataset** – Source data
+- **Power BI Desktop**
+- **Power Query**
+- **DAX**
+- **Data Modeling**
+- **Data Visualization**
+- **CSV Dataset**
 
 ---
 
-## 📊 Dashboard Pages
+## 📁 Dataset
 
-### 1. Executive Overview
+The project uses the **Brazilian E-Commerce Public Dataset by Olist**.
 
-Provides a high-level summary of the business.
+The dataset contains information related to:
 
-Key metrics include:
+- Orders
+- Customers
+- Sellers
+- Products
+- Payments
+- Reviews
+- Product categories
+- Delivery information
+- Customer and seller locations
+
+---
+
+# 📌 Dashboard Pages
+
+## 1. Executive Overview
+
+The Executive Overview provides a high-level summary of the business performance.
+
+### Key KPIs
 
 - Total Revenue
 - Average Order Value
@@ -60,55 +64,76 @@ Key metrics include:
 - Total Products
 - Total Customers
 - Total Orders
+
+### Visualizations
+
 - Monthly Revenue Trend
+- Overall business performance indicators
+
+![Executive Overview](Dashboard_Screenshots/executive-overview.png)
 
 ---
 
-### 2. E-Commerce Sales & Operations Analysis
+## 2. E-Commerce Sales & Operations Analysis
 
-This page focuses on sales and operational performance.
+This page focuses on sales performance and operational analysis.
 
-Visualizations include:
+### Visualizations
 
 - Revenue by Category
 - Revenue by Seller State
 - Orders by Payment Type
 - Orders by Delivery Status
 
-Interactive filters are also provided for:
+### Interactive Filters
 
 - Seller State
 - Payment Type
 
+These filters allow users to interactively explore different parts of the business.
+
+![Sales & Operations Analysis](Dashboard_Screenshots/sales-operations.png)
+
 ---
 
-### 3. Seller & Product Performance
+## 3. Seller & Product Performance
 
-This page focuses on seller and product performance.
+This page focuses on seller and product-category performance.
 
-Visualizations include:
+### Visualizations
 
 - Top 10 Seller Cities by Revenue
 - Top Categories by Revenue
 - Revenue vs Units Sold by Category
 - Seller Performance Overview
 
----
+The seller performance table provides information such as:
 
-## 📈 Key Insights
+- Seller City
+- Seller State
+- Revenue
+- Total Orders
+- Units Sold
 
-Some important observations from the analysis include:
-
-- **Health & Beauty** is one of the strongest product categories by revenue.
-- **São Paulo** generates significantly higher seller revenue compared with other seller states/cities.
-- **Credit Card** is the dominant payment method.
-- The majority of orders are delivered **On Time**.
-- A small number of seller cities contribute a significant portion of total revenue.
-- Higher units sold generally correspond to higher revenue, although performance varies across categories.
+![Seller & Product Performance](Dashboard_Screenshots/seller-product-performance.png)
 
 ---
 
-## 🔄 Data Analysis Workflow
+# 💡 Key Business Insights
+
+The analysis provides several useful business insights:
+
+- A small number of product categories contribute significantly to overall revenue.
+- Seller performance varies considerably across different locations.
+- São Paulo represents one of the strongest seller markets.
+- Credit cards are the dominant payment method.
+- The majority of orders were delivered on time.
+- Revenue and order activity can be tracked effectively through monthly trends.
+- Seller and category-level analysis can help identify high-performing areas of the business.
+
+---
+
+# 🔄 Data Analysis Workflow
 
 ```text
 Raw Dataset
@@ -124,46 +149,3 @@ DAX Measures
 Interactive Power BI Dashboard
      ↓
 Business Insights
-📁 Project Structure
-E-Commerce-Sales-Operations-Analysis/
-│
-├── Dashboard/
-│   └── E-Commerce_Sales_Operations_Analysis.pbix
-│
-├── Dashboard_Screenshots/
-│   ├── executive-overview.png
-│   ├── sales-operations.png
-│   └── seller-product-performance.png
-│
-├── dataset/
-│   └── dataset files
-│
-└── README.md
-
-🚀 How to Use
-Download or clone this repository.
-Open the .pbix file from the Dashboard folder using Power BI Desktop.
-If required, update the dataset file path in Power Query.
-Refresh the data.
-Use the filters and interactive visuals to explore the analysis.
-
-💡 Business Value
-
-This dashboard can help business stakeholders:
-
-Monitor revenue performance
-Identify high-performing categories
-Evaluate seller performance
-Understand customer and order activity
-Analyze payment preferences
-Monitor delivery performance
-Identify areas requiring operational improvement
-
-
-👨‍💻 Author
-
-Manas Thakre
-
-Data Analytics | Power BI | SQL | Data Visualization
-
-
