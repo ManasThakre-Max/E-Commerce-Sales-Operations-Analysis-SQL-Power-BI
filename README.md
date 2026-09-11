@@ -149,3 +149,45 @@ DAX Measures
 Interactive Power BI Dashboard
      ↓
 Business Insights
+
+📂 Project Structure
+E-Commerce-Sales-Operations-Analysis/
+│
+├── Dashboard/
+│   └── Power BI Dashboard (.pbix)
+│
+├── Dashboard_Screenshots/
+│   ├── executive-overview.png
+│   ├── sales-operations.png
+│   └── seller-product-performance.png
+│
+├── dataset/
+│   └── E-Commerce Dataset Files
+│
+└── README.md
+
+🚀 How to Use
+Download or clone this repository.
+Open the Power BI .pbix file from the Dashboard folder.
+Refresh the data if required.
+Explore the three dashboard pages.
+Use the available filters and visuals to analyze the data.
+
+📈 Business Value
+
+This project demonstrates how raw e-commerce data can be transformed into an interactive business intelligence solution.
+
+The dashboard can help businesses:
+
+Monitor sales performance
+Identify high-performing categories
+Compare seller performance
+Understand payment behavior
+Evaluate delivery operations
+Support data-driven decision-making
+
+👨‍💻 Author
+
+Manas Thakre
+
+Data Analytics | Power BI | Data Visualization
